@@ -1,14 +1,25 @@
 <template>
   <v-app>
-    <v-main>
-      a
-      <HelloWorld />
-    </v-main>
+    
+    <v-main class="page-container" >
+      
+      <CalculatorPage/>
 
-    <AppFooter />
+    </v-main>  
+    
+
   </v-app>
 </template>
 
-<script setup>
+<script>
   //
+
 </script>
+
+<style lang="scss" scoped>
+
+.page-container {
+  background-image: linear-gradient(#184D59, #308C83);
+}
+
+</style>
